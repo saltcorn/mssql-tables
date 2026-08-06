@@ -1,0 +1,31 @@
+{
+  "name": "@saltcorn/mssql-tables",
+  "version": "0.1.0",
+  "description": "Table provider for Microsoft SQL Server tables in Saltcorn",
+  "main": "index.js",
+  "dependencies": {
+    "mssql": "^12.7.0"
+  },
+  "author": "Tom Nielsen",
+  "license": "MIT",
+  "peerDependencies": {
+    "@saltcorn/data": ">=1.7.0-alpha.0",
+    "@saltcorn/db-common": ">=1.7.0-alpha.0"
+  },
+  "eslintConfig": {
+    "extends": "eslint:recommended",
+    "parserOptions": {
+      "ecmaVersion": 2020
+    },
+    "env": {
+      "node": true,
+      "es6": true
+    },
+    "rules": {
+      "no-unused-vars": "off",
+      "no-case-declarations": "off",
+      "no-empty": "warn",
+      "no-fallthrough": "warn"
+    }
+  }
+}
